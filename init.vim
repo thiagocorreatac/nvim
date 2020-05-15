@@ -1,15 +1,16 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
-Plug 'leafoftree/vim-vue-plugin'
+Plug 'preservim/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug 'junegunn/fzf.vim'
 Plug 'roxma/nvim-completion-manager'
 Plug 'w0rp/ale'
 Plug 'cohama/lexima.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 colorscheme gruvbox
